@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(white, lightgray, gray);
+    background-attachment: fixed;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 800px;
+    height: 500px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.img:hover{
+    transform:scale(1.1)
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
